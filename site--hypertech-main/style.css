@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Share Tech Mono', monospace;
+}
+
 .cabecalho {
     background-color: #000000;
     color: white;
@@ -19,4 +23,26 @@
     display: inline;
     margin: 0 15px;
     font-size: 24px;
+}
+
+.escola-imagem{
+    width: 18%;
+}
+
+.escola{
+    background-image: linear-gradient(BLACK,gray, white);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+    
 }
