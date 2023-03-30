@@ -16,7 +16,7 @@ body{
 }
 
 .logotipo-header{
-    width: 15%; 
+    width: 18%; 
 }
    
 .cabecalho-lista-item{
@@ -67,5 +67,15 @@ body{
 .estudante-todos{
 
     display: grid;
-    grid-template-columns: 15% 15% 15%;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0 320px;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 190px;
 }
