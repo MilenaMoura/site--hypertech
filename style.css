@@ -9,20 +9,35 @@ body{
 
 .cabecalho {
     background-color: #000000;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+.cabecalho-texto{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho-texto:hover{
+    color:aqua;
+    text-decoration: underline;
+    text-decoration: none;
+    
+}
+
 .logotipo-header{
     width: 18%; 
 }
+
    
 .cabecalho-lista-item{
     display: inline;
-    margin: 0 15px;
+    margin: 0 35px;
     font-size: 24px;
+  
 }
 
 .escola-imagem{
@@ -64,9 +79,10 @@ body{
 }
 
 .estudante-todos{
-
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    padding: 0 0;
+    margin: 1% 13%;
 
 }
 
@@ -77,4 +93,9 @@ body{
 
 .rodape-imagem{
     height: 190px;
+}
+
+.texto-rodape{
+    color: white;
+    font-size: x-small;
 }
