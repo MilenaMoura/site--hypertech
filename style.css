@@ -17,7 +17,7 @@ body{
 
 .cabecalho-texto{
     text-transform: uppercase;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -45,8 +45,7 @@ body{
 }
 
 .escola{
-    background-image: linear-gradient(BLACK,gray, white);
-    color: white;
+    background-image:black;
     display: flex;
     justify-content: center;
     align-items: center;
