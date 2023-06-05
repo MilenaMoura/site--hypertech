@@ -8,8 +8,8 @@ body{
 }
 
 .cabecalho {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+    background-color: linear-gradient(black, gray, white)
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,7 +45,7 @@ body{
 }
 
 .escola{
-    background-image:black;
+    background-color: linear-gradient(black, gray, white)
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ body{
 }
 
 .rodape{
-    background-color: black;
+    background-color: linear-gradient(black, gray, white)
     text-align: center;
 }
 
