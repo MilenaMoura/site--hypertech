@@ -8,8 +8,8 @@ body{
 }
 
 .cabecalho {
-    background-color: linear-gradient(black, gray, white)
-    color: rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,7 +17,7 @@ body{
 
 .cabecalho-texto{
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
 }
 
@@ -45,7 +45,8 @@ body{
 }
 
 .escola{
-    background-color: linear-gradient(black, gray, white)
+    background-image: linear-gradient(BLACK,gray, white);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +59,7 @@ body{
 
 .escola-titulo{
     padding: 24px 0;
+    align-items: center;
     
 }
 
@@ -86,7 +88,7 @@ body{
 }
 
 .rodape{
-    background-color: linear-gradient(black, gray, white)
+    background-color: black;
     text-align: center;
 }
 
