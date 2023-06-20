@@ -25,14 +25,79 @@
     <section class="escola">
          <div class="escola-div-conteudo">
                 <h2 class="escola-titulo">Sobre o projeto.</h2>
-               <P class="escola-texto-um">Robotica
-                É um ramo educacional tecnológico que trata de sistemas compostos por partes mecânicas automaticas em conjunto com circuitos integrados tornando sistemas mecânicos motorizados controlados oor circuitos elétricos e inteligência computacional.
-                Na Robotica se estuda as tecnologias associadas a concepção e construção de robôs
-                Um engenheiro profissional em Robotica, cria aplicativos ou maquinas autônomas, conhecidas como robôs , para setores como mineração, manufatura , automotivo, serviços e varios outros </P></div>
-        
-           <img class="escola-imagem" src="robo3.png" alt="robo explicando a aula">
-        
+                <P class="escola-texto-um">Nós, alunos da escola Unidade Polo, estamos desenvolvendo alguns projetos na matéria de robótica, que tem como</P>
+            <p id="texto-adicional" style="display: none;"> objetivo estimular o raciocínio logico, desenvolver a criatividade, resolver os problemas por meio de acertos e erros, melhorar habilidades manuais e trabalho em equipe.</p>
+            <button class="saibamais-bnt" onclick="mostrarTexto()">Saiba Mais</button>
+            </div>
+            <script>
+                function mostrarTexto() {
+                  var textoAdicional = document.getElementById("texto-adicional");
+                  textoAdicional.style.display = "block";
+                  var botao = document.getElementsByTagName("button")[0];
+                  botao.innerHTML = "Fechar";
+                  botao.onclick = function() { ocultarTexto(); };
+                }
+                
+                function ocultarTexto() {
+                  var textoAdicional = document.getElementById("texto-adicional");
+                  textoAdicional.style.display = "none";
+                  var botao = document.getElementsByTagName("button")[0];
+                  botao.innerHTML = "Saiba Mais";
+                  botao.onclick = function() { mostrarTexto(); };
+                }
+              </script>
+            
+            </div>
+        <img class="escola-imagem" src="robo3.png" alt="robo explicando a aula"> 
+
     </section>
+    <section class="estudante">
+    <h2 class="estudante-titulo">Quem somos nós?</h2>
+    <div class="estudante-todos">
+
+    <div class="estudante-div">
+       
+        <img class="estudante-imagem" src="LATREL.jpg" alt="Foto do Latrel">
+        <h3 class="estudante-nome">João Pedro - CEO</h3>
+        <a href=""><img class="estudante-icone" src="github.png" alt="icone github"></a>
+        <a href=""><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+        <a href=""><img class="estudante-icone" src="instagram.png" alt="incone instagram"></a>
+    </div>
+    <div class="estudante-div">
+       
+        <img class="estudante-imagem" src="Milena.jpg" alt="Foto da Milena">
+        <h3 class="estudante-nome">Milena - COO</h3>
+        <a href=""><img class="estudante-icone" src="github.png" alt="icone github"></a>
+        <a href=""><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+        <a href=""><img class="estudante-icone" src="instagram.png" alt="incone instagram"></a>
+    </div>
+    <div class="estudante-div">
+       
+        <img class="estudante-imagem" src="rabico.png" alt="Foto do Rabicó">
+        <h3 class="estudante-nome">joão Otavio - CMO</h3>
+       <a href=""><img class="estudante-icone" src="github.png" alt="icone github"></a>
+        <a href=""><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+        <a href=""><img class="estudante-icone" src="instagram.png" alt="incone instagram"></a>
+    </div>
+    <div class="estudante-div">
+       
+        <img class="estudante-imagem" src="gordo.jpg" alt="Foto de um homem obeso">
+        <h3 class="estudante-nome">Gustavo - CFO</h3>
+        <a href=""><img class="estudante-icone" src="github.png" alt="icone github"></a>
+        <a href=""><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+        <a href=""><img class="estudante-icone" src="instagram.png" alt="incone instagram"></a>
+    </div>
+    <div class="estudante-div">
+       
+        <img class="estudante-imagem" src="cabrito.jpg" alt="Foto do cabrito">
+        <h3 class="estudante-nome">MGabriel - CFO</h3>
+        <a href=""><img class="estudante-icone" src="github.png" alt="icone github"></a>
+        <a href=""><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+        <a href=""><img class="estudante-icone" src="instagram.png" alt="incone instagram"></a>
+    </div>
+
+</div>
+</section>
 <footer class="rodape">
     <img class="rodape-imagem" src="hypertech.gif" alt="Logo do HyperTech">
     

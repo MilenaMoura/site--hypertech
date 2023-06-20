@@ -59,8 +59,16 @@ body{
 
 .escola-titulo{
     padding: 24px 0;
-    align-items: center;
     
+}
+
+.saibamais-bnt{
+    background-color: transparent;
+    border: none;
+    color: #5c21d1;
+    text-decoration: underline;
+    cursor: pointer;
+   
 }
 
  .estudante-imagem{
@@ -81,7 +89,7 @@ body{
 
 .estudante-todos{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     padding: 0 0;
     margin: 1% 13%;
 
@@ -93,7 +101,7 @@ body{
 }
 
 .rodape-imagem{
-    height: 200px;
+    height: 190px;
 }
 
 .texto-rodape{

@@ -90,11 +90,10 @@ body{
 .rodape{
     background-color: black;
     text-align: center;
-    height: 100vh
 }
 
 .rodape-imagem{
-    width: 10%;
+    height: 190px;
 }
 
 .texto-rodape{
