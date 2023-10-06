@@ -29,7 +29,7 @@ body{
 }
 
 .logotipo-header{
-    width: 18%; 
+    width: 20%; 
 }
 
    
@@ -45,31 +45,17 @@ body{
 }
 
 .escola{
-    background-image: linear-gradient(BLACK,gray, white);
-    color: white;
+    background-image: linear-gradient(BLACK,rgb(110, 109, 109), rgb(255, 255, 255));
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
-}
-
-.escola-div-conteudo{
-    width: 25%;
-}
-
-.escola-titulo{
-    padding: 24px 0;
-    align-items: center;
-    
+    padding: 60px 0;
 }
 
  .estudante-imagem{
-    width: 115px;
+    width: 180px;
     
-    }
-
-.estudante-icone{
-    width: 16px;
 }
 
 .estudante-div{
@@ -78,13 +64,17 @@ body{
 
 .estudante-titulo{
     text-align: center;
+    font-size: xx-large;
+    height: 100px;
 }
 
 .estudante-todos{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    padding: 15 0;
+    padding: 15px 0;
     margin: 1% 10%;
+    
+    
 
 
 }
