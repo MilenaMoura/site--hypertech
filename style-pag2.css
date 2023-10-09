@@ -37,15 +37,24 @@ body{
     display: inline;
     margin: 0 35px;
     font-size: 24px;
-  
 }
+
+
+
+
+
+
+
+
+
 
 .escola-imagem{
     width: 18%;
 }
 
 .escola{
-    background-image: linear-gradient(BLACK,rgb(110, 109, 109), rgb(255, 255, 255));
+
+    background: #A69F95;    
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -53,30 +62,29 @@ body{
     padding: 60px 0;
 }
 
- .estudante-imagem{
+.estudante2 {
+    background: #A69F95;
+}
+
+ .estudante-imagem2{
     width: 180px;
     
 }
 
-.estudante-div{
+.estudante-div2{
     text-align: center;
 }
 
-.estudante-titulo{
+.estudante-titulo2{
     text-align: center;
     font-size: xx-large;
     height: 100px;
 }
 
-.estudante-todos{
+.estudante-todos2{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    padding: 15px 0;
-    margin: 1% 10%;
-    
-    
-
-
+    padding: 1% 10%;
 }
 
 .rodape{

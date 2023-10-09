@@ -45,7 +45,7 @@ body{
 }
 
 .escola{
-    background-image: linear-gradient(BLACK,gray, white);
+    background: #A69F95;
     color: white;
     display: flex;
     justify-content: center;
@@ -63,12 +63,15 @@ body{
 }
 
 .saibamais-bnt{
-    background-color: transparent;
+    background-color: #A69F95;
     border: none;
     color: #5c21d1;
     text-decoration: underline;
     cursor: pointer;
-   
+}
+
+.estudante{
+    background: #A69F95;
 }
 
  .estudante-imagem{
@@ -90,9 +93,48 @@ body{
 .estudante-todos{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    padding: 0 0;
-    margin: 1% 13%;
+    padding: 1% 13%;
+}
 
+
+
+.escola-imagem{
+    width: 18%;
+}
+
+.escola{
+
+    background: #A69F95;    
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.estudante2 {
+    background: #A69F95;
+}
+
+ .estudante-imagem2{
+    width: 180px;
+    
+}
+
+.estudante-div2{
+    text-align: center;
+}
+
+.estudante-titulo2{
+    text-align: center;
+    font-size: xx-large;
+    height: 100px;
+}
+
+.estudante-todos2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1% 10%;
 }
 
 .rodape{
