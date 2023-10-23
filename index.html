@@ -32,7 +32,26 @@
                 Na Robotica se estuda as tecnologias associadas a concepção e construção de robôs 
                 Um engenheiro profissional em Robotica, cria aplicativos ou maquinas autônomas, conhecidas como robôs , para setores como mineração, manufatura , automotivo, serviços e varios outros</p>
             <button class="saibamais-bnt" onclick="mostrarTexto()">Saiba Mais</button>
-        </div>
+            </div>
+            <script>
+                function mostrarTexto() {
+                  var textoAdicional = document.getElementById("texto-adicional");
+                  textoAdicional.style.display = "block";
+                  var botao = document.getElementsByTagName("button")[0];
+                  botao.innerHTML = "Fechar";
+                  botao.onclick = function() { ocultarTexto(); };
+                }
+                
+                function ocultarTexto() {
+                  var textoAdicional = document.getElementById("texto-adicional");
+                  textoAdicional.style.display = "none";
+                  var botao = document.getElementsByTagName("button")[0];
+                  botao.innerHTML = "Saiba Mais";
+                  botao.onclick = function() { mostrarTexto(); };
+                }
+              </script>
+            
+            </div>
         <img class="escola-imagem" src="robo3.png" alt="robo explicando a aula"> 
 
     </section>
@@ -83,55 +102,6 @@
 
 </div>
 </section>
-
-
-</section>
-<section class="estudante2">
-<h2 class="titulo">Projetos HyperTech</h2>
-<div class="estudante-todos2">
-
-<div class="estudante-div2">
-
-    <img class="estudante-imagem2" src="robo1.jpeg" alt="Foto do Semáfaro - Cruzamento">
-    <h2 class="estudante-nome">Semáfaro - Cruzamento</h2>
-    <h3> Qual a importância de organizarmos o sincronismo de semáforos e o tempo destinado ao cruzamento de estradas? 
-        Imagine a seguinte situação: no centro de uma grande cidade o cruzamento de 2 avenidas está causando um grande congestionamento, são muitos carros que precisam passar por ali diariamente, além de pedestres que também precisam atravessar as avenida de um lado para o outro. Que tal projetar e programar o protótipo de semáforos de veículos e de pedestre como alternativa para analisar este problema?</h3>
-
-</div>
-<div class="estudante-div2">
-
-    <videoautoplay><video controls autoplay class="estudante-imagem2" src="Pushbutton.mp4" alt="Video do robô Push Button"></video></videoautoplay>
-    <h2 class="estudante-nome">Push Button</h2>
-    <h3></h3>
-</div>
-<div class="estudante-div2">
-
-<videoautoplay><video controls autoplay class="estudante-imagem2" src="buzerr.mp4" alt=""></video></videoautoplay>
-    <h2 class="estudante-nome">Buzzer Passivo</h2>
-    <h3></h3>
-</div>
-<div class="estudante-div2">
-
-    <videoautoplay><video controls autoplay class="estudante-imagem2" src="supermaquina.mp4" alt=""></videoautoplay>
-    <h2 class="estudante-nome">Super Máquina</h2>
-    <h3></h3>
-</div>
-    <div class="estudante-div2">
-
-    <img class="estudante-imagem2" src="" alt="">
-    <h2 class="estudante-nome"></h2>
-    <h3></h3>
-</div>
-<div class="estudante-div2">
-
-    <img class="estudante-imagem2" src="" alt="">
-    <h2 class="estudante-nome"></h2>
-    <h3></h3>
-</div>
-
-</div>
-</section>
-
 <footer class="rodape">
     <img class="rodape-imagem" src="hypertech.gif" alt="Logo do HyperTech">
     
@@ -143,26 +113,6 @@
 
     </ul>
 </footer>
-
-
-
-<script>
-    function mostrarTexto() {
-      var textoAdicional = document.getElementById("texto-adicional");
-      textoAdicional.style.display = "block";
-      var botao = document.getElementsByTagName("button")[0];
-      botao.innerHTML = "Fechar";
-      botao.onclick = function() { ocultarTexto(); };
-    }
-    
-    function ocultarTexto() {
-      var textoAdicional = document.getElementById("texto-adicional");
-      textoAdicional.style.display = "none";
-      var botao = document.getElementsByTagName("button")[0];
-      botao.innerHTML = "Saiba Mais";
-      botao.onclick = function() { mostrarTexto(); };
-    }
-  </script>
  
 </body>
 </html
