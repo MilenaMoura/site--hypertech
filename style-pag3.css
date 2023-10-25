@@ -1,0 +1,90 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.cabecalho {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho-texto{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho-texto:hover{
+    color:aqua;
+    text-decoration: underline;
+    text-decoration: none;
+    
+}
+
+.logotipo-header{
+    width: 20%; 
+}
+
+   
+.cabecalho-lista-item{
+    display: inline;
+    margin: 0 35px;
+    font-size: 24px;
+  
+}
+
+.escola-imagem{
+    width: 18%;
+}
+
+.escola{
+    background-image: linear-gradient(BLACK,rgb(110, 109, 109), rgb(255, 255, 255));
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+ .estudante-imagem{
+    width: 180px;
+    
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    font-size: xx-large;
+    height: 30px;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1px 15px;
+    margin: 5% 10px;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 220px;
+}
+
+.texto-rodape{
+    color: white;
+    font-size: x-small;
+}
